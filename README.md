@@ -12,14 +12,14 @@ Esse seminários é dividido em duas partes: apresentação e exercícios.
 
 Você deverá criar uma apresentação que explique qualquer um dos seguintes tópicos abaixo:
 
-- User input: buttons and forms
+- User input: buttons and forms -- **Gustavo, Raul e Paulo**
 - Displaying contents: tables, panels e wells
 - images and media: Images, Thumbnails, Media objects
-- Alerting Users: Labels, Badges, Alerts, Progress Bars
+- Alerting Users: Labels, Badges, Alerts, Progress Bars -- **Eduardo, Victor e Wender**
 - Tabs, Pills and Tabbed Navigation
-- Hide and Seek: Collapse, Accordion, Scrollspy and Affix
+- Hide and Seek: Collapse, Accordion, Scrollspy and Affix -- **Lucas Bruzzi, Francisco e Matheus**
 - Revealing Content: Tooltips, Popovers and Modals
-- Carousel
+- Carousel -- **Lucas, Arthur e Fernando**
 
 Sua apresentação deverá ter, obrigatóriamente:
 
