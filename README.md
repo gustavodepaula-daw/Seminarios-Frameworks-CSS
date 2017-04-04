@@ -34,4 +34,4 @@ Sua apresentação deverá ter, obrigatóriamente:
 
 Você deverá escolher um dos tópicos apresentados pelo outro grupo e então fazer o exercício proposto por ele. A metodologia segue a mesma dos exercícios de aula. Fazer o fork, implementar os exercícios, e então entregar na forma de pull request.
 
-*Data de entrega: 19/04/2016*
+*Data de entrega: 17/04/2016*
