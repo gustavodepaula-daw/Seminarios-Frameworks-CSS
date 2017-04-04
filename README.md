@@ -1,8 +1,8 @@
-# Seminários: Conhecendo o Bootstrap
+# Seminários: Recursos do Bootstrap
 
-**Quantidade de alunos: 3**
+**Quantidade de alunos por grupo: 3**
 
-**Data: 04/04/2017**
+**Data: 11/04/2017**
 
 **Valor: 3 pontos**
 
