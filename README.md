@@ -14,7 +14,7 @@ Você deverá criar uma apresentação que explique qualquer um dos seguintes t�
 
 - User input: buttons and forms -- **Gustavo, Raul e Paulo**
 - Displaying contents: tables, panels e wells
-- images and media: Images, Thumbnails, Media objects
+- images and media: Images, Thumbnails, Media objects --**Ananda, Carol e Clarisse** 
 - Alerting Users: Labels, Badges, Alerts, Progress Bars -- **Eduardo, Victor e Wender**
 - Tabs, Pills and Tabbed Navigation
 - Hide and Seek: Collapse, Accordion, Scrollspy and Affix -- **Lucas Bruzzi, Francisco e Matheus**
