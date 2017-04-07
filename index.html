@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Seminario DAW</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Latest compiled and minified CSS -->
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown>
+				<script type="text/template">
+					## Seminário Bootstrap
+					### forms e buttons
+					_@gustavo-depaula_
+					_@paulo99hsilva_
+					_@raul4247_
+				</script>	
+			</section>
+			<section data-markdown>
+				<script type="text/template">
+					# Buttons
+					- Meio de interação com o usuário
+					- tag button
+					- buttons group
+				</script>
+			</section>
+			<section present>
+					<pre>
+						<code class="html"><button type="button" class="btn btn-default">Sou um botão!</button></code>
+					</pre>
+				<button type="button" class="btn btn-default">Sou um botão!</button> 					
+
+			</section>
+			<section data-markdown>
+				<script type="text/template">
+					# Buttons Groups
+				</script>
+			</section>
+			<section>
+				<pre>
+					<code class="html"><div class="btn-group" role="group" aria-label="..."></div></code>
+				</pre>
+				<div class="btn-group" role="group" aria-label="...">
+ 					<button type="button" class="btn btn-default">Esquerda</button>
+ 					<button type="button" class="btn btn-default">Meio</button>
+ 					<button type="button" class="btn btn-default">Direita</button>
+				</div>
+			</section>
+			<section>
+				<pre>
+					<code class="html"><div class="btn-toolbar" role="toolbar" aria-label="..."></div></code>
+				</pre>
+				<div class="btn-toolbar" role="toolbar" aria-label="...">
+ 					<div class="btn-group" role="group" aria-label="...">
+ 						<button type="button" class="btn btn-default">1</button>
+ 						<button type="button" class="btn btn-default">2</button>
+ 						<button type="button" class="btn btn-default">3</button>
+ 					</div>
+ 					<div class="btn-group" role="group" aria-label="...">
+ 						<button type="button" class="btn btn-default">4</button>
+ 						<button type="button" class="btn btn-default">5</button>
+ 						<button type="button" class="btn btn-default">6</button>	
+ 					</div>
+ 					<div class="btn-group" role="group" aria-label="...">
+ 						<button type="button" class="btn btn-default">7</button>
+ 					</div>
+				</div>
+			</section>
+			<section present>
+<pre><code class="html">
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default">1</button>
+  <button type="button" class="btn btn-default">2</button>
+
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Dropdown link</a></li>
+      <li><a href="#">Dropdown link</a></li>
+    </ul>
+  </div>
+</div>
+</code></pre>
+				<div class="btn-group" role="group" aria-label="...">
+ 					<button type="button" class="btn btn-default">1</button>
+ 					<button type="button" class="btn btn-default">2</button>
+
+					<div class="btn-group" role="group">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="http://getbootstrap.com.br/components/#btn-groups-nested">Dropdown link</a></li>
+							<li><a href="#">Dropdown link</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section data-markdown>
+				<script type="text/template">
+					# Forms
+				</script>
+			</section>
+
+		</div>
+	</div>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+	
+	<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+	</script>
+	<!-- Latest compiled and minified JavaScript -->
+
+	</body>
+	</html>
